@@ -33,6 +33,7 @@ h3 {
 .button-order:hover,
 .button-order:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 .contacts {
   color: var(--prime-text-color);
@@ -92,6 +93,7 @@ span {
 
 .buttons .button:hover,
 .buttons .button:focus {
+  cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
 }
