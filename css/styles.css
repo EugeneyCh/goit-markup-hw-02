@@ -22,11 +22,11 @@ body {
   text-align: center;
 }
 .rank-two {
+  font-family: sans-serif;
   color: var(--prime-text-color);
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
-  text-decoration: none;
 }
 .button-order {
   font-family: var(--prime-font-family);
@@ -66,10 +66,8 @@ body {
 
 .paragraph {
   color: var(--prime-text-color);
-  columns: var(--prime-text-color);
   font-size: 16px;
   line-height: 1.5;
-  text-decoration: none;
 }
 
 .span {
