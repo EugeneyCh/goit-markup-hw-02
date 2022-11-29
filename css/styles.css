@@ -3,7 +3,8 @@
   --prime-font-family: "Roboto", sans-serif;
   --prime-text-color: #2e2f42;
   --alter-text-color: #e7e9fc;
-  --hover-focus-color: #4d5ae5;
+  --hover-focus-color: #434455;
+  --active-color: #4d5ae5;
 }
 
 body {
@@ -22,18 +23,25 @@ body {
   text-align: center;
 }
 .rank-two {
-  font-family: sans-serif;
+  font-family:var(--prime-font-family);
   color: var(--prime-text-color);
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
 }
+.rank-three {
+  font-family: var(--prime-font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 .button-order {
   font-family: var(--prime-font-family);
   color: #fff;
   background-color: #4d5ae5;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.17;
   cursor: pointer;
   width: 170;
@@ -50,7 +58,7 @@ body {
 }
 .contacts:hover,
 .contacts:focus {
-  color: var(--hover-focus-color);
+  color: var(--brand-color);
 }
 .hhide {
   display: none;
@@ -68,6 +76,7 @@ body {
   color: var(--prime-text-color);
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 400;
 }
 
 .span {
@@ -83,9 +92,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.logo:hover {
-  color: var(--hover-focus-color);
-}
 .logo-bottom {
   background-color: var(--prime-text-color);
   color: var(--alter-text-color);
@@ -98,6 +104,9 @@ body {
 .nav-links .link:hover,
 .nav-links .link:focus {
   color: var(--hover-focus-color);
+}
+.nav-links .link:active {
+  color: var(--active-color);
 }
 
 .nav-links-active:none .button li {
@@ -128,4 +137,10 @@ body {
 .container {
   weight: 1440px;
   height: 310px;
+}
+.list {
+  list-style: none;
+}
+.hero {
+  background-color: var(--prime-text-color);
 }
